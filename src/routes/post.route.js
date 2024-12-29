@@ -11,7 +11,7 @@ router.get('/posts' , getPost);
 
 router.post('/posts' , authenticate , createPost);
 
-router.get('/posts/:id' , authenticate , getPostByID);
+router.get('/posts/:id' , getPostByID);
 
 router.put('/posts/:id' , authenticate , updatePostByID);
 router.delete('/posts/:id' ,authenticate , deletePostByID);
