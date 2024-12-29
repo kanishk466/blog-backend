@@ -2,6 +2,8 @@
 
 This is a backend API for a simple blog application built using the MERN stack (MongoDB, Express.js, React, Node.js). The API supports user authentication and CRUD operations for blog posts.
 
+Live Url :https://blog-backend-yp3u.onrender.com/api/posts
+
 ## Features
 - **User Authentication**: Register and log in users securely.
 - **JWT-Based Authentication**: Secure endpoints with JSON Web Tokens.
